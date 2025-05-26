@@ -37,3 +37,12 @@ describe(`Function 'arrayReverse':`, () => {
     expect(arrayReverse(['I', 'stude'])).toEqual(['e', 'dutsI']);
   });
 });
+
+/*
+Examples:
+
+```js
+arrayReverse(['Hell0']) === ['0lleH'];
+arrayReverse(['Mate', 'Academy']) === ['ymed', 'acAetaM'];
+arrayReverse(['I', 'am', 'a', 'student!']) === ['!', 'tn', 'e', 'dutsamaI'];
+*/
