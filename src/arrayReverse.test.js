@@ -20,9 +20,13 @@ describe(`Function 'arrayReverse':`, () => {
     expect(arrayReverse(['Hell0'])).toEqual(['0lleH']);
   });
 
-  it('should reverse two strings', () => {
-    expect(arrayReverse(['Mate', 'Academy'])).toEqual(['ymed', 'acAetaM']);
-  });
+  it(
+    'should reverse both the order of the strings and ' +
+      'the characters within each string',
+    () => {
+      expect(arrayReverse(['Mate', 'Academy'])).toEqual(['ymed', 'acAetaM']);
+    }
+  );
 
   it('should reverse more than one string', () => {
     expect(arrayReverse(['I', 'am', 'a', 'student!'])).toEqual([
@@ -33,9 +37,13 @@ describe(`Function 'arrayReverse':`, () => {
     ]);
   });
 
-  it('should ', () => {
-    expect(arrayReverse(['I', 'stude'])).toEqual(['e', 'dutsI']);
-  });
+  it(
+    'should reverse both the order of the strings' +
+      'and the characters within each string',
+    () => {
+      expect(arrayReverse(['I', 'stude'])).toEqual(['e', 'dutsI']);
+    }
+  );
 });
 
 /*
